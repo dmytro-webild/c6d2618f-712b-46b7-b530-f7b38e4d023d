@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
-      logo="Luxe Salon"
+      logo="Lueur Hair Salon"
       ctaButton={{
         text: "Book Now",
         href: "#contact",
@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterBrand
-      brand="Luxe Salon"
+      brand="Lueur Hair Salon"
       columns={[
         {
           items: [
