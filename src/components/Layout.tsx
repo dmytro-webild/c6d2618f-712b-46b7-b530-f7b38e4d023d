@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
-      logo="Roma Hair and Beauty Salon"
+      logo="Salon Milinni"
       ctaButton={{
         text: "Book Now",
         href: "#contact",
@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterBrand
-      brand="Roma Hair and Beauty Salon"
+      brand="Salon Milinni"
       columns={[
         {
           items: [
