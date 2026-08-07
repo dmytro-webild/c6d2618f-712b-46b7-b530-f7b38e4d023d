@@ -14,9 +14,9 @@ export default function TeamSection(): React.JSX.Element {
                 title="Meet Our Expert Stylists"
                 description="Passionate professionals dedicated to your hair health."
                 members={[
-                  { name: "Sarah J.", role: "Lead Creative Director", imageSrc: "http://img.b2bpic.net/free-photo/confident-young-beautiful-female-barber-uniform-grabbed-hair-isolated-green-wall_141793-105669.jpg" },
-                  { name: "Julian D.", role: "Master Stylist", imageSrc: "http://img.b2bpic.net/free-photo/man-sitting-chair-hairdresser-with-client-guy-drinkig-whiskey_1157-43567.jpg" },
-                  { name: "Mina K.", role: "Senior Colorist", imageSrc: "http://img.b2bpic.net/free-photo/excited-young-beautiful-female-barber-uniform-holding-barber-tools-doing-beard-shaving-guy-isolated-pink-wall_141793-105761.jpg" },
+                  { name: "Sarah J.", role: "Lead Creative Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786085320027-pwv2be6z.jpg" },
+                  { name: "Julian D.", role: "Master Stylist", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786085340431-f6lmcap4.jpg" },
+                  { name: "Mina K.", role: "Senior Colorist", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786085388105-guwwn44x.jpg" },
                 ]}
                 textAnimation="fade-blur"
               />
