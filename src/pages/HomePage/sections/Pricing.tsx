@@ -14,9 +14,9 @@ export default function PricingSection(): React.JSX.Element {
                 title="Simple Salon Pricing"
                 description="Transparent pricing for high-end results."
                 plans={[
-                  { tag: "Essentials", price: "$80", description: "For standard maintenance and refresh.", features: ["Consultation", "Cut & Blow Dry", "Light Scalp Massage"], primaryButton: { text: "Book Now", href: "#contact" } },
-                  { tag: "Signature", price: "$180", description: "Our complete color & cut experience.", features: ["Full Color Consultation", "Highlight / Balayage", "Restorative Treatment"], primaryButton: { text: "Book Now", href: "#contact" } },
-                  { tag: "Luxury", price: "$280", description: "The ultimate transformation package.", features: ["Bespoke Coloring", "Precision Cut", "Luxury Keratin Treatment", "Gift Set"], primaryButton: { text: "Book Now", href: "#contact" } },
+                  { tag: "Essentials", price: "$400", description: "For standard maintenance and refresh.", features: ["Consultation", "Cut & Blow Dry", "Light Scalp Massage"], primaryButton: { text: "Book Now", href: "#contact" } },
+                  { tag: "Signature", price: "$1000", description: "Our complete color & cut experience.", features: ["Full Color Consultation", "Highlight / Balayage", "Restorative Treatment"], primaryButton: { text: "Book Now", href: "#contact" } },
+                  { tag: "Luxury", price: "$1800", description: "The ultimate transformation package.", features: ["Bespoke Coloring", "Precision Cut", "Luxury Keratin Treatment", "Gift Set"], primaryButton: { text: "Book Now", href: "#contact" } },
                 ]}
                 textAnimation="slide-up"
               />
