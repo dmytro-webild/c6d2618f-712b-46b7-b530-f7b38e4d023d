@@ -11,7 +11,7 @@ export default function HeroSection(): React.JSX.Element {
         textAnimation="slide-up"
         imageSrc="https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786079378250-flve49bl.jpg"
         primaryButton={{"href":"#contact","text":"Book Appointment"}}
-        brand="Luxe Salon"
+        brand="Hair That Turns Heads"
         secondaryButton={{"text":"Our Services","href":"#features"}}
       />
     </div>
