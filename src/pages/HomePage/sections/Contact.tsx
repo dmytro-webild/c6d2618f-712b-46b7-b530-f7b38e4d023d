@@ -37,7 +37,7 @@ const ContactInline = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
             <div className="lg:col-span-5 flex flex-col justify-between p-8 rounded card space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-foreground mb-6">Luxe Salon</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-6">Hair That Turns Heads.</h3>
                 
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
@@ -84,7 +84,7 @@ const ContactInline = () => {
 
             <div className="lg:col-span-7 rounded overflow-hidden card min-h-[400px] relative">
               <iframe
-                title="Luxe Salon Location Map"
+                title="Hair That Turns Heads. Location Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.738878401311!2d-118.4003563234509!3d34.06334441714408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc04d6d147ab%3A0xd6c7c379fd381f!2sBeverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
