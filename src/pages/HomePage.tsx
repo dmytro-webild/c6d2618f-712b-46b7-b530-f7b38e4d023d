@@ -6,7 +6,6 @@ import MetricsIconCards from '@/components/sections/metrics/MetricsIconCards';
 import PricingCenteredCards from '@/components/sections/pricing/PricingCenteredCards';
 import TeamGlassCards from '@/components/sections/team/TeamGlassCards';
 import TestimonialMarqueeOverlayCards from '@/components/sections/testimonial/TestimonialMarqueeOverlayCards';
-import { Award, Sparkles, Star } from "lucide-react";
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
