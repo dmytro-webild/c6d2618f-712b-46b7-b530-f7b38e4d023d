@@ -7,9 +7,9 @@ export default function HeroSection(): React.JSX.Element {
   return (
     <div data-webild-section="hero" data-section="hero" id="hero">
       <HeroBrand
-        description="Experience personalized styling and premium treatments in our serene, high-end studio."
+        description="Step into our salon and walk out with a personalized look that brings out your best confidence."
         textAnimation="slide-up"
-        imageSrc="http://img.b2bpic.net/free-photo/hairdresser-giving-hairstyle-young-woman_23-2147769862.jpg"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786079378250-flve49bl.jpg"
         primaryButton={{"href":"#contact","text":"Book Appointment"}}
         brand="Luxe Salon"
         secondaryButton={{"text":"Our Services","href":"#features"}}
