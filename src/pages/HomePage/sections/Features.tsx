@@ -14,8 +14,8 @@ export default function FeaturesSection(): React.JSX.Element {
                 title="Signature Hair Services"
                 description="We blend artistic precision with premium hair care rituals."
                 items={[
-                  { title: "Coloring", description: "Bespoke color blending and expert highlights for a natural, healthy glow.", imageSrc: "http://img.b2bpic.net/free-photo/young-woman-looking-photo-tape-red-background-high-quality-photo_114579-60928.jpg" },
-                  { title: "Precision Cuts", description: "Expert architectural cuts that frame your face and simplify your daily routine.", imageSrc: "http://img.b2bpic.net/free-photo/top-view-male-self-care-setting-still-life_23-2150326541.jpg" },
+                  { title: "Coloring", description: "Bespoke color blending and expert highlights for a natural, healthy glow.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786084936075-ijc3sk7v.jpg" },
+                  { title: "Precision Cuts", description: "Expert architectural cuts that frame your face and simplify your daily routine.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786084982720-f6fdcn8t.avif" },
                   { title: "Deep Treatments", description: "Restorative hydration rituals that bring strength, shine, and vitality to your strands.", imageSrc: "http://img.b2bpic.net/free-photo/woman-getting-treatment-hairdresser-shop_23-2149229762.jpg" },
                 ]}
                 textAnimation="fade"
