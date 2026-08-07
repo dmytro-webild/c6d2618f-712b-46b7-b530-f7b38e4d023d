@@ -56,7 +56,6 @@ export default function HomePage() {
       description="Discover why our clients keep returning for our signature salon experience."
       testimonials={[
         {
-          id: "1",
           name: "Clara S.",
           role: "Fashion Editor",
           company: "StyleDaily",
