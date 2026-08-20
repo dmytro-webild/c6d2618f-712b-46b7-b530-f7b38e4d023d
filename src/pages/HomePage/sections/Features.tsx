@@ -14,9 +14,9 @@ export default function FeaturesSection(): React.JSX.Element {
                 title="Signature Hair Services"
                 description="We blend artistic precision with premium hair care rituals."
                 items={[
-                  { title: "Coloring", description: "Bespoke color blending and expert highlights for a natural, healthy glow.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786084936075-ijc3sk7v.jpg" },
-                  { title: "Precision Cuts", description: "Expert architectural cuts that frame your face and simplify your daily routine.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786084982720-f6fdcn8t.avif" },
-                  { title: "Deep Treatments", description: "Restorative hydration rituals that bring strength, shine, and vitality to your strands.", imageSrc: "http://img.b2bpic.net/free-photo/woman-getting-treatment-hairdresser-shop_23-2149229762.jpg" },
+                  { title: "Hair Cut", description: "Bespoke color blending and expert highlights for a natural, healthy glow.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1787196093627-ekvz5hht.jpg" },
+                  { title: "Beard Trim", description: "Expert architectural cuts that frame your face and simplify your daily routine.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1787196111261-fvjnnzzc.jpg" },
+                  { title: "Hair Coloring", description: "Restorative hydration rituals that bring strength, shine, and vitality to your strands.", imageSrc: "https://images.pexels.com/photos/3993132/pexels-photo-3993132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=3993132" },
                 ]}
                 textAnimation="fade"
               />
