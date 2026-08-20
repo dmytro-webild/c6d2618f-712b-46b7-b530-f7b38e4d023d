@@ -11,7 +11,7 @@ export default function MetricsSection(): React.JSX.Element {
             <SectionErrorBoundary name="metrics">
               <MetricsIconCards
                 tag="By The Numbers"
-                title="Our Salon Legacy"
+                title="Our Legacy"
                 description="A decade of making clients feel their most beautiful."
                 metrics={[
                   { icon: "Sparkles", title: "Happy Clients", value: "15,000+" },
