@@ -11,7 +11,7 @@ export default function PricingSection(): React.JSX.Element {
             <SectionErrorBoundary name="pricing">
               <PricingCenteredCards
                 tag="Investment"
-                title="Simple Salon Pricing"
+                title="Simple Pricing"
                 description="Transparent pricing for high-end results."
                 plans={[
                   { tag: "Essentials", price: "$400", description: "For standard maintenance and refresh.", features: ["Consultation", "Cut & Blow Dry", "Light Scalp Massage"], primaryButton: { text: "Book Now", href: "#contact" } },
