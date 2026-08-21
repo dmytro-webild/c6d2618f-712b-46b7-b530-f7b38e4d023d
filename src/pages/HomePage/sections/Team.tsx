@@ -15,7 +15,7 @@ export default function TeamSection(): React.JSX.Element {
                 description="Passionate professionals dedicated to your hair health."
                 members={[
                   { name: "Sarah J.", role: "Lead Creative Director", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786085320027-pwv2be6z.jpg" },
-                  { name: "Julian D.", role: "Master Stylist", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786085340431-f6lmcap4.jpg" },
+                  { name: "Julian D.", role: "Master Stylist", imageSrc: "https://images.pexels.com/photos/11018893/pexels-photo-11018893.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=11018893" },
                   { name: "Mina K.", role: "Senior Colorist", imageSrc: "https://storage.googleapis.com/webild/users/user_3FlzQsxiYdrM4aXHZmSOeQNKP1F/uploaded-1786085388105-guwwn44x.jpg" },
                 ]}
                 textAnimation="fade-blur"
