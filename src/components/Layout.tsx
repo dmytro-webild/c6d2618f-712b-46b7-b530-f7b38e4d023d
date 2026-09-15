@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
-      logo="Nada iCutz"
+      logo="Fade Zone"
       ctaButton={{
         text: "Book Now",
         href: "#contact",
@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterBrand
-      brand="Nada iCutz"
+      brand="Fade Zone"
       columns={[
         {
           items: [
