@@ -84,8 +84,8 @@ const ContactInline = () => {
 
             <div className="lg:col-span-7 rounded overflow-hidden card min-h-[400px] relative">
               <iframe
-                title="Hair That Turns Heads. Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.738878401311!2d-118.4003563234509!3d34.06334441714408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc04d6d147ab%3A0xd6c7c379fd381f!2sBeverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                title="Fade Zone Location Map"
+                src="https://maps.google.com/maps?q=Fade%20Zone&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '400px' }}
