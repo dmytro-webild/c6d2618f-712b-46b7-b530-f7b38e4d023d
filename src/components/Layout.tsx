@@ -7,85 +7,82 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
   const navItems = [
-  {
-    "name": "Services",
-    "href": "#features"
-  },
-  {
-    "name": "Pricing",
-    "href": "#pricing"
-  },
-  {
-    "name": "Team",
-    "href": "#team"
-  },
-  {
-    "name": "Reviews",
-    "href": "#testimonial"
-  },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "Metrics",
-    "href": "#metrics"
-  },
-  {
-    "name": "Faq",
-    "href": "#faq"
-  }
-];
+    {
+      "name": "Services",
+      "href": "#features"
+    },
+    {
+      "name": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "name": "Team",
+      "href": "#team"
+    },
+    {
+      "name": "Reviews",
+      "href": "#testimonial"
+    },
+    {
+      "name": "Hero",
+      "href": "#hero"
+    },
+    {
+      "name": "Metrics",
+      "href": "#metrics"
+    }
+  ];
 
   return (
     <StyleProvider buttonVariant="expand" siteBackground="noise" heroBackground="cornerGlow">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
-      logo="Fade Zone"
-      ctaButton={{
-        text: "Book Now",
-        href: "#contact",
-      }}
-     navItems={navItems} />
+          logo="Fade Zone"
+          ctaButton={{
+            text: "Book Now",
+            href: "#contact",
+          }}
+          navItems={navItems}
+        />
       </SectionErrorBoundary>
       <main className="flex-grow">
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
         <FooterBrand
-      brand="Fade Zone"
-      columns={[
-        {
-          items: [
+          brand="Fade Zone"
+          columns={[
             {
-              label: "Services",
-              href: "#features",
+              items: [
+                {
+                  label: "Services",
+                  href: "#features",
+                },
+                {
+                  label: "Pricing",
+                  href: "#pricing",
+                },
+                {
+                  label: "Our Team",
+                  href: "#team",
+                },
+              ],
             },
             {
-              label: "Pricing",
-              href: "#pricing",
+              items: [
+                {
+                  label: "Privacy Policy",
+                  href: "#",
+                },
+                {
+                  label: "Terms of Service",
+                  href: "#",
+                },
+              ],
             },
-            {
-              label: "Our Team",
-              href: "#team",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-            {
-              label: "Terms of Service",
-              href: "#",
-            },
-          ],
-        },
-      ]}
-    />
+          ]}
+        />
       </SectionErrorBoundary>
     </StyleProvider>
   );
