@@ -9,7 +9,7 @@ const primaryButton = {
   href: "https://bookings.vibefam.com/dreamsyogastudio/classes?"
 };
 const secondaryButton = {
-  text: "Call Us",
+  text: "Whatsapp ",
   href: "tel:555-0123"
 };
 
